@@ -1,0 +1,152 @@
+.wrapper {
+ background: linear-gradient(rgb(245, 247, 249) 0%, rgb(197, 240, 255) 100%);
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: linear-gradient(rgb(118, 208, 240) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(200px);
+    z-index: 2;
+  border-radius: 16px;
+  max-width: 900px;
+  padding: 40px;
+  text-align: left;
+  position: relative;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0b1739;
+}
+
+.subtext {
+  color: #4b5871;
+  font-size: 14px;
+  margin: 8px 0 24px;
+  max-width: 600px;
+}
+
+.card {
+  display: flex;
+  gap: 40px;
+  background: #ecf8ff;
+  border-radius: 12px;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 1;
+}
+
+.percentage {
+  font-size: 56px;
+  background: linear-gradient(90deg, #6b4eff, #7dd3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-weight: 800;
+}
+
+.csat {
+  font-weight: 600;
+  font-size: 16px;
+  color: #0b1739;
+  margin-bottom: 16px;
+}
+
+.textBlock h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.textBlock p {
+  font-size: 14px;
+  color: #3c4a68;
+  margin-bottom: 8px;
+}
+
+.love {
+  font-weight: 600;
+}
+
+.link {
+  font-size: 13px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.chat {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  width: 100%;
+  max-width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.chatItem {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  transition: background 0.2s ease;
+}
+
+.chatItem img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.chatItem strong {
+  font-size: 14px;
+  color: #0b1739;
+}
+
+.chatItem p {
+  font-size: 12px;
+  color: #54647f;
+  margin: 2px 0;
+}
+
+.chatItem span {
+  font-size: 11px;
+  color: #2e9b5f;
+}
+
+.active {
+  background: #eef4ff;
+  border-left: 3px solid #6b4eff;
+}
+
+.pagination {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #cbd5e1;
+  border-radius: 50%;
+}
+
+.activeDot {
+  background: #6b4eff;
+}

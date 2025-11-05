@@ -1,0 +1,85 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 92vh;
+  background: radial-gradient(circle at 10% 20%, #ffe5e6 0%, transparent 50%),
+              radial-gradient(circle at 90% 70%, #ffe0cc 0%, transparent 50%),
+              #ffffff;
+  padding: 0 20px;
+}
+
+.content {
+  max-width: 900px;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #ed2024;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  color: #333;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  background-color: #ed2024;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(237, 32, 36, 0.3);
+}
+
+.primaryBtn:hover {
+  background-color: #c9181b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(237, 32, 36, 0.4);
+}
+
+.secondaryBtn {
+  background: transparent;
+  border: 2px solid #ed2024;
+  color: #ed2024;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  padding: 10px 24px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.secondaryBtn:hover {
+  background-color: #ed2024;
+  color: white;
+  transform: translateY(-2px);
+}
